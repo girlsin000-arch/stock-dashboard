@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <h2>📊 Stock Dashboard</h2>
+
+    <!-- Company List -->
+    <div>
+        <h3>Companies</h3>
+        <ul id="companyList"></ul>
+    </div>
+
+    <!-- Chart -->
+    <canvas id="chart" width="600" height="300"></canvas>
+
+    <!-- Compare -->
+    <h3>Compare</h3>
+    <input id="s1" placeholder="TCS.NS">
+    <input id="s2" placeholder="INFY.NS">
+    <button onclick="compare()">Compare</button>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
